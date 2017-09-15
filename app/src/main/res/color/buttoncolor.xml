@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<selector  
+    xmlns:android="http://www.norkoo.com">  
+    <item android:state_pressed="true" >  
+       <shape>   
+           <corners android:radius="10dp" />       
+            <stroke
+        android:width="3dp"
+        android:color="#BE9062"
+        android:dashWidth="0dp"
+        android:dashGap="0dp"/>
+            <gradient android:startColor="#eb6b00" android:centerColor="#ef8000" 
+    android:endColor="#f49500" android:type="linear" android:angle="90"  
+    android:centerX="0.5" android:centerY="0.5" />  
+             <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />   
+        <solid android:color="#0F3A4B"/>
+     </shape>       
+    </item>  
+  
+    <item android:state_focused="true" >  
+   <shape>   
+           <corners android:radius="10dp" />       
+            <stroke
+        android:width="3dp"
+        android:color="#BE9062"
+        android:dashWidth="0dp"
+        android:dashGap="0dp"/>
+            <gradient android:startColor="#eb6b00" android:centerColor="#ef8000" 
+    android:endColor="#f49500" android:type="linear" android:angle="90"  
+    android:centerX="0.5" android:centerY="0.5" />  
+             <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />   
+        <solid android:color="#0691cd"/>
+     </shape>       
+    </item>  
+  
+    <item>          
+    <shape>   
+           <corners android:radius="10dp" />       
+            <stroke
+        android:width="3dp"
+        android:color="#BE9062"
+        android:dashWidth="0dp"
+        android:dashGap="0dp"/>
+            <gradient android:startColor="#eb6b00" android:centerColor="#ef8000" 
+    android:endColor="#f49500" android:type="linear" android:angle="90"  
+    android:centerX="0.5" android:centerY="0.5" />  
+             <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />   
+        <solid android:color="#0691cd"/>
+     </shape>       
+    </item>  
+</selector>  

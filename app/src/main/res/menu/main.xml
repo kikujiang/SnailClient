@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.snailclient.activity.DemoAppActivity" >
+
+    <item
+        android:id="@+id/action_userName"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/action_user"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_settings_screen"/>
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_check_update"/>
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_info"/>
+    <item
+        android:id="@+id/get_address"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_get_address"/>
+    <item
+        android:id="@+id/user_state"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_user_state"/>
+</menu>

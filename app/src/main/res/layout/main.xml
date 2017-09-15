@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <org.androidpn.demoapp.SlideShowView
+            android:id="@+id/slideshowView"
+            android:layout_width="fill_parent"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FBFAFB" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/launchTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:drawableTop="@drawable/la"
+                    android:gravity="center_horizontal"
+                    android:text="兼容性测试"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip"
+                    android:typeface="monospace" />
+
+                <Button
+                    android:id="@+id/page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:drawableTop="@drawable/ya"
+                    android:gravity="center_horizontal"
+                    android:text="性能测试"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip" />
+
+                <Button
+                    android:id="@+id/allTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:drawableTop="@drawable/alltest"
+                    android:gravity="center_horizontal"
+                    android:text="游戏众测"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/creatBug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:drawableTop="@drawable/b1"
+                    android:gravity="center_horizontal"
+                    android:text="创建bug"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip" />
+
+                <Button
+                    android:id="@+id/srp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:drawableTop="@drawable/report"
+                    android:gravity="center_horizontal"
+                    android:text="创建测试报告"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip" />
+
+                <Button
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:drawableTop="@drawable/inf"
+                    android:gravity="center_horizontal"
+                    android:text="信息"
+                    android:textColor="#ffffff"
+                    android:textSize="15dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

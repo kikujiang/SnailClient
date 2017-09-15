@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:textAlignment="textStart" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/installDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="  安装描述    "
+                android:textColor="#0691cd"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/InstallResult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:focusable="false"
+                android:minLines="4"
+                android:textColor="#0691cd" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/launchDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="  启动描述    "
+                android:textColor="#0691cd"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/launchResult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:focusable="false"
+                android:minLines="4"
+                android:textColor="#0691cd" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/runDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="  运行描述    "
+                android:textColor="#0691cd"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/runResult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:focusable="false"
+                android:minLines="4"
+                android:textColor="#0691cd" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="  卸载描述    "
+                android:textColor="#0691cd"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/unInstallResult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="12"
+                android:focusable="false"
+                android:minLines="4"
+                android:textColor="#0691cd" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/beginTestTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="  开始时间    "
+                android:textColor="#0691cd"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/bdate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/textstyle"
+                android:ems="8"
+                android:gravity="center_horizontal|center_vertical"
+                android:minLines="3"
+                android:text="请选择日期"
+                android:textColor="#0691cd" />
+
+            <TextView
+                android:id="@+id/btime"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:minLines="4"
+                android:text=" 请选择时间"
+                android:textColor="#0691cd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/endTestTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="  结束时间    "
+                android:textColor="#0691cd"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/edate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/textstyle"
+                android:ems="8"
+                android:gravity="center_horizontal|center_vertical"
+                android:minLines="4"
+                android:text="请选择日期"
+                android:textColor="#0691cd" />
+
+            <TextView
+                android:id="@+id/etime"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/textstyle"
+                android:gravity="center_horizontal|center_vertical"
+                android:minLines="4"
+                android:text=" 请选择时间"
+                android:textColor="#0691cd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/sb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/alltestbutton"
+                android:text="提交" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
